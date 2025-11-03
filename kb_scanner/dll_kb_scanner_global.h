@@ -1,0 +1,24 @@
+#ifndef DLL_KB_SCANNER_GLOBAL_H
+#define DLL_KB_SCANNER_GLOBAL_H
+
+#include <QtCore/QtGlobal>
+
+#if defined(USING_LIB_KB_SCANNER)
+
+#if defined(LIB_IS_EXPORTED_KB_SCANNER)
+
+#  define LIB_PREFIX_KB_SCANNER Q_DECL_EXPORT
+
+#else
+
+#  define LIB_PREFIX_KB_SCANNER Q_DECL_IMPORT
+
+#endif
+
+#else
+
+#   define LIB_PREFIX_KB_SCANNER
+
+#endif // USING_LIB_KB_SCANNER
+
+#endif // DLL_KB_SCANNER_GLOBAL_H

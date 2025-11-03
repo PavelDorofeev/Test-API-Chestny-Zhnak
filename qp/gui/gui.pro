@@ -1,0 +1,32 @@
+TEMPLATE = lib
+
+QT = core gui svg
+TARGET = qp_gui
+
+CONFIG += ordered
+
+OBJECTS_DIR = tmp\\obj
+MOC_DIR = tmp\\moc
+RCC_DIR = tmp\\rcc
+UI_DIR = tmp\\ui
+
+include( $$PWD/../../qp/general/general.pri )
+
+
+INCLUDEPATH += $$includePath( $$PWD )
+INCLUDEPATH += $$includePath( $$PWD/../ )
+INCLUDEPATH += $$includePath( $$PWD/../../ )
+#DEPENDPATH += $$dependPath( $$PWD )
+
+INCLUDEPATH += $$includePath( $$PWD/../ ) #include qp/meta/... для этого, чтобы включения находились (в *.h)
+#DEPENDPATH += $$dependPath( $$PWD/../ )
+
+include( $$include2( $$PWD/delegates/qp_delegates.pri ) )
+
+
+include( $$include2( $$PWD/../config/lib_qp_core.pri ) )
+
+include( $$include2( $$PWD/../config/create_lib_qp_gui.pri ) )
+include( $$include2( $$PWD/qp_gui.pri ) )
+
+

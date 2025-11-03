@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733335"
+   version="1.1"
+   id="svg823"
+   inkscape:export-filename="D:\DEVELOPMENT\QT4\_MY__\driver_KKT_BIT\chzn_subdirs\chzn_api_test\img\sova-blur-256x256.png"
+   inkscape:export-xdpi="96.000008"
+   inkscape:export-ydpi="96.000008"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="sova-blur-256x256.svg">
+  <defs
+     id="defs817">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5331"
+       x="-0.058474574"
+       width="1.1169492"
+       y="-0.061607145"
+       height="1.1232142">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.2600447"
+         id="feGaussianBlur5333" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5411"
+       x="-0.089485459"
+       width="1.1789709"
+       y="-0.090158522"
+       height="1.180317">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.15772879"
+         id="feGaussianBlur5413" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5415"
+       x="-0.075932771"
+       width="1.1518655"
+       y="-0.073610749"
+       height="1.1472215">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.15772879"
+         id="feGaussianBlur5417" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5419"
+       x="-0.014402348"
+       width="1.0288047"
+       y="-0.010284517"
+       height="1.020569">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.15772879"
+         id="feGaussianBlur5421" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="42.421289"
+     inkscape:cy="134.06798"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1680"
+     inkscape:window-height="1021"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata820">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-229.26665)">
+    <path
+       style="opacity:1;fill:#ab8c0c;fill-opacity:1;fill-rule:nonzero;stroke:#017da2;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.35099338;paint-order:fill markers stroke;filter:url(#filter5331)"
+       id="path5057"
+       sodipodi:type="arc"
+       sodipodi:cx="94.872025"
+       sodipodi:cy="98.184525"
+       sodipodi:rx="66.901787"
+       sodipodi:ry="63.5"
+       sodipodi:start="6.1383579"
+       sodipodi:end="6.1289331"
+       sodipodi:open="true"
+       d="M 161.07341,89.0201 A 66.901787,63.5 0 0 1 104.68336,160.99796 66.901787,63.5 0 0 1 28.716879,107.64495 66.901787,63.5 0 0 1 84.748943,35.415666 66.901787,63.5 0 0 1 160.97947,88.428307"
+       transform="matrix(0.46493162,0,0,0.49212366,-10.381342,214.89609)" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.98611109;filter:url(#filter5411)"
+       id="circle3858"
+       cy="256.43716"
+       cx="28.317358"
+       rx="2.1151431"
+       ry="2.0993528"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\DEVELOPMENT\QT4\_MY__\equipment\scanner\kb_wgt_test\img\sova-blur-256x256.png" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.98611109;filter:url(#filter5415)"
+       id="circle3860"
+       cy="256.42157"
+       cx="39.579216"
+       rx="2.4926596"
+       ry="2.5712895"
+       inkscape:export-xdpi="17"
+       inkscape:export-ydpi="17" />
+    <path
+       style="clip-rule:evenodd;display:inline;opacity:1;fill:#fdffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.98611109;filter:url(#filter5419)"
+       inkscape:connector-curvature="0"
+       id="path3862"
+       d="M 41.500634,247.43093 H 27.312085 l -6.569152,-3.37936 v 31.32745 c 0,0 -0.437837,5.48022 4.992378,5.48022 h 15.414975 c 0,0 5.86805,-0.5474 5.86805,-6.48462 v -30.32305 z m -13.274751,13.6924 c -2.489368,0 -4.507588,-2.10422 -4.507588,-4.70015 0,-2.59593 2.01822,-4.70014 4.507588,-4.70014 2.488965,-4.2e-4 4.507188,2.10379 4.507188,4.69972 0,2.59594 -2.018223,4.70057 -4.507188,4.70057 z m 6.449158,2.31261 -0.79822,1.7828 -0.798619,-1.7828 -0.79862,-1.78196 h 3.194079 z m 4.967096,-2.31261 c -2.489367,0 -4.507187,-2.10422 -4.507187,-4.70015 0,-2.59593 2.01782,-4.70014 4.507187,-4.70014 2.489368,0 4.507187,2.10421 4.507187,4.70014 0,2.59593 -2.017819,4.70015 -4.507187,4.70015 z"
+       inkscape:export-xdpi="17"
+       inkscape:export-ydpi="17" />
+  </g>
+</svg>
