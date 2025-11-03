@@ -2,8 +2,6 @@
 
 #include <QDebug>
 
-#include "equipment/a_subdirs/abstract_kkt/qp_treeitem_2.h"
-
 QpComboBox::QpComboBox(QWidget *parent) :
     QComboBox(parent),
     treeItem(0)
