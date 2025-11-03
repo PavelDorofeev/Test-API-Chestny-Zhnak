@@ -1,0 +1,86 @@
+CONNECTED(000002BC)
+---
+Certificate chain
+ 0 s:/CN=kkmspb.ru
+   i:/C=US/O=Let's Encrypt/CN=R3
+ 1 s:/C=US/O=Let's Encrypt/CN=R3
+   i:/C=US/O=Internet Security Research Group/CN=ISRG Root X1
+ 2 s:/C=US/O=Internet Security Research Group/CN=ISRG Root X1
+   i:/O=Digital Signature Trust Co./CN=DST Root CA X3
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFKDCCBBCgAwIBAgISAxI5bnO4PJ12tHQUAv6HtAacMA0GCSqGSIb3DQEBCwUA
+MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD
+EwJSMzAeFw0yMzAxMjQxMjMzMDRaFw0yMzA0MjQxMjMzMDNaMBQxEjAQBgNVBAMT
+CWtrbXNwYi5ydTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMP7bauZ
+j9xJAiTN79Ld52Oh+wtjj+XFfhe79KJgPeaUyvUzhlCj+q7Q6O1tRiptyLrDE+VU
+XJrWrm9xk95pfhPo1nLw1Nbs476hgq/4U+nYNNiHNWfy6M12fKzTKKWwpCZf5JNg
+k+KITHCGDNlHaQnLqtrbHAJA1G8y3TS6zEVydPFfcEj03C/9dosmA2hflLbgwpZ0
+MH63NViWUhpFTDb06pvnpmNkc3cR0f2/0WhXyOz6PF7FvW5e7Z00Pb/0nB0Kl7f2
+R0GpeUucaAnhDv0vgDwpKqW1eEabAGGnPW6nQBpIFCBfsqcoO7NJqCKLJUfeix9D
+3hQejFn46P0hD3kCAwEAAaOCAlQwggJQMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUE
+FjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU
+n+Sy8wd7BqvQL5AYEdLbpKuY/A8wHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+v
+nYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5s
+ZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wIwYD
+VR0RBBwwGoIJa2ttc3BiLnJ1gg13d3cua2ttc3BiLnJ1MEwGA1UdIARFMEMwCAYG
+Z4EMAQIBMDcGCysGAQQBgt8TAQEBMCgwJgYIKwYBBQUHAgEWGmh0dHA6Ly9jcHMu
+bGV0c2VuY3J5cHQub3JnMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDxAHcAtz77JN+c
+Tbp18jnFulj0bF38Qs96nzXEnh0JgSXttJkAAAGF4/txFwAABAMASDBGAiEAlTBa
+lHXO+8IlfIcBH/X+YUzBGk6d6MISXMu/NZQMKM0CIQCRZWuGylYOsqd3f/wUN3NW
+pIwcrOuzyzf3Cji64Xi5sgB2AOg+0No+9QY1MudXKLyJa8kD08vREWvs62nhd31t
+Br1uAAABheP7cRUAAAQDAEcwRQIgeYqAbg0sbYOdKBad72AiQNPjxPHXoj8Ggiu4
+WNtStHsCIQCkzXRIFLyimvO9/SrIYF9hWt5ddl99yphCNI8SmOJytjANBgkqhkiG
+9w0BAQsFAAOCAQEALarQoil2xBO6pC84MxMkt5a/reT6iXvQT11tOPpVdIlF+zmW
+Agyth4dqWwtOlNf0hnHREOnLw/hG9QQsFcd9F/r9U5tvAVlZu4sINw4UW1rvRgBc
+oT1e/vqr1DxFF5emH50MbeVplKgresKu6DTScby881qWFjI5e/9mE3baXvtA9QDc
+zWnwFCNrGeqiHBUG3EzM8BlFnAGD4ZryI3KsxvS4UVPil0G0+voAcBfFJOKR6yzn
+vmoHfE6DhvyMIdhgo2PlKUHZ3w2in+pvtnyjpqNs3raWR4udXdYtT/0anCsdGfhE
+PcENxTgpY4qGuQFpE8Cn+GJru8cVv/Tw37qRlQ==
+-----END CERTIFICATE-----
+subject=/CN=kkmspb.ru
+issuer=/C=US/O=Let's Encrypt/CN=R3
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 4706 bytes and written 451 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES256-GCM-SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: 31AD968EC4E8010348A30D510CDA3B9BDFD55A1BF37F7012B56ED4FA0B582109
+    Session-ID-ctx: 
+    Master-Key: 49B1DB6C66BB177051531DA60856166CC1AAE09C3B9BBCDF7AB5857E82B1843C4D06B94B090BD5083555B122C1D428C9
+    Key-Arg   : None
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 1d 4c 2e 18 ce 95 2c d4-97 5d 52 f6 ff f7 36 f9   .L....,..]R...6.
+    0010 - c3 61 c9 60 90 eb b5 59-04 c9 6c f9 96 ad a8 da   .a.`...Y..l.....
+    0020 - aa 9c f1 d2 83 56 34 4e-c7 82 16 d9 a3 ab 6b ef   .....V4N......k.
+    0030 - dd 35 f1 ed f1 cd 31 99-5e f0 ab 47 12 ae 8d 95   .5....1.^..G....
+    0040 - 8d 4c f7 06 8a 94 b0 b5-7f 17 45 ff 04 38 7d 9d   .L........E..8}.
+    0050 - 40 ed 0d b5 e7 0e e6 e7-ed e8 ad 23 a5 2e 57 9e   @..........#..W.
+    0060 - e0 77 e8 cf 0e 7c d3 1b-59 ff 87 3b 69 14 58 04   .w...|..Y..;i.X.
+    0070 - 80 5a 3c 64 d2 2e 0f d1-dd a4 c1 bc 7f 00 d9 ab   .Z<d............
+    0080 - ea 14 cf 13 13 5c a5 4c-e0 49 53 d0 21 c8 85 5b   .....\.L.IS.!..[
+    0090 - d8 4b bc f4 83 10 99 ca-44 4f fb c3 3f 23 f7 b5   .K......DO..?#..
+    00a0 - a4 eb bd f3 02 ba 67 50-56 aa 7d ba af 24 f3 c3   ......gPV.}..$..
+    00b0 - e2 9d b3 fd 48 85 e7 5a-12 e8 c0 70 9e c7 97 f3   ....H..Z...p....
+
+    Start Time: 1675678112
+    Timeout   : 7200 (sec)
+    Verify return code: 20 (unable to get local issuer certificate)
+---
+closed
