@@ -90,8 +90,6 @@ defineReplace(targetWithVer) {
     return($$target_with_ver)
 }
 
-INCLUDEPATH += $$includePath($$PWD/../../my_lib/my_gui)  # это чтобы в ui формах подключались <xxxx.h>
-
 HEADERS += \
 #    $$PWD/reestr_def.h
 
