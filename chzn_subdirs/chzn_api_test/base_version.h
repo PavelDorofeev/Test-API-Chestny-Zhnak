@@ -22,4 +22,4 @@
 // const QString appDef::PROGRAM_VERSION = QString("%1.%2.%3").arg(NVER1).arg(NVER2).arg(STATIC_BUILD_NUMBER);
 
 
-#define BUILDING_PROGRAM_DIR  "D:\\DEVELOPMENT\\QT4\\_MY__\\driver_KKT_BIT\\chzn_subdirs\\chzn_api_test\\release\\"
+#define BUILDING_PROGRAM_DIR  "D:\\DEVELOPMENT\\QT4\\_MY__\\chzn_subdirs\\chzn_api_test\\release\\"
