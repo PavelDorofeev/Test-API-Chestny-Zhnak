@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'qp_combobox.h'
 **
-** Created: Mon 3. Nov 20:40:46 2025
+** Created: Tue 4. Nov 13:01:57 2025
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

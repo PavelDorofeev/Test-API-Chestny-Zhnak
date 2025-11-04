@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'search_settings_dlg.ui'
 **
-** Created: Mon 3. Nov 20:29:03 2025
+** Created: Tue 4. Nov 13:31:55 2025
 **      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!

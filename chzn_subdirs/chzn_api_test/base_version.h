@@ -1,6 +1,6 @@
 #define NVER1 1
 #define NVER2 4
-#define STATIC_BUILD_NUMBER 2
+#define STATIC_BUILD_NUMBER 3
 
 #define BITLtd Str("Software\\BIT Ltd\\Chzn Api Test\\")
 

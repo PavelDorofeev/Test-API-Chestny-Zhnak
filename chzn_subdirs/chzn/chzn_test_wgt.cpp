@@ -4,7 +4,7 @@
 #include <QAxObject>
 #include <QFile>
 #include "windows.h"
-#include "kb_scanner/kb_wgt/scan_code_dlg.h"
+//#include "kb_scanner/kb_wgt/scan_code_dlg.h"
 #include "qp/core/meta/meta.h"
 #include "chzn_validate.h"
 #include "chzn_goods_info.h"
@@ -36,7 +36,7 @@ static const QString reestr_lm_login = "marking/lm_login";
 static const QString reestr_lm_pw = "marking/lm_pw";
 
 
-const QString Chzn_Test_Dlg::tempDir = QDir::tempPath()+"\\"+QApplication::organizationName() +"\\" ;
+QString Chzn_Test_Dlg::tempDir = QDir::tempPath();//+"\\"+QApplication::organizationName() +"\\" ;
 const QString Chzn_Test_Dlg::signed_file_name = "signed_data_out.txt" ;
 
 
@@ -48,6 +48,7 @@ Chzn_Test_Dlg::Chzn_Test_Dlg( QWidget *parent)
 {
     ui->setupUi(this);
 
+    Chzn_Test_Dlg::tempDir = QDir::tempPath()+"\\"+QApplication::organizationName() +"\\" ;
     // -----------------------------------------------------------
 
     // -------------------------------------------------------------------
@@ -73,7 +74,7 @@ Chzn_Test_Dlg::Chzn_Test_Dlg( QWidget *parent)
 
     setWindowTitle(QString("Тестирование АПИ честного знака версия %1.%2.%3").arg(NVER1).arg(NVER2).arg(STATIC_BUILD_NUMBER));
 
-    ui->lbl_tempDir->setText(Chzn_Test_Dlg::tempDir);
+    ui->lbl_tempDir->setText( Chzn_Test_Dlg::tempDir );
 
     ui->cmb_api_version->clear();
     ui->cmb_api_version->addItem("v3",3);
@@ -459,7 +460,7 @@ bool Chzn_Test_Dlg::startProcess_sign()
     QString cmdFileName = Chzn_Test_Dlg::tempDir + "chzn_sign_from_app.cmd";
     QString cmd_process_std_output = Chzn_Test_Dlg::tempDir + "cmd_process_output.txt";
     QString cmd_process_std_error = Chzn_Test_Dlg::tempDir + "cmd_process_error.txt";
-    QString csptest_output = Chzn_Test_Dlg::tempDir + "csptest_output.txt";
+//    QString csptest_output = Chzn_Test_Dlg::tempDir + "csptest_output.txt";
     QString outStr, errStr;
     QFile errFile, outFile;
 
@@ -485,7 +486,7 @@ bool Chzn_Test_Dlg::startProcess_sign()
             "echo current dir %1\r\n"\
             "SET PATH=%PATH%;C:\\Program Files (x86)\\Crypto Pro\\CSP;\r\n"\
             "echo tmp =  %tmp%\r\n"\
-            "csptest.exe -sfsign -sign -in body.txt -out "+signedFileNameForCmd+" -my "+ui->ledt_thumbprint->text()+" -base64 -add\r\n"\
+            "csptest.exe -sfsign -sign -in body.txt -out \""+signedFileNameForCmd+"\" -my "+ui->ledt_thumbprint->text()+" -base64 -add\r\n"\
             "echo ERRORLEVEL:%ERRORLEVEL% \r\n"\
             "exit\r\n";
 
@@ -567,13 +568,13 @@ bool Chzn_Test_Dlg::startProcess_sign()
 
     //QProcess::startDetached("cmd.exe", QString(cmdFileName+" 543454" ).split(' '));
 
-    qWarning() <<"process->start("<<cmdFileName<<")";
+    qWarning() <<"process->start(\""<<cmdFileName<<"\")";
 
     process->start( "cmd.exe");
 
     qWarning() <<"cmd" << cmdFileName.toLocal8Bit();
 
-    process->write( cmdFileName.toLocal8Bit()+"\n\r" ); // не забывай \r\n везде
+    process->write( "\""+cmdFileName.toLocal8Bit()+"\"\n\r" ); // не забывай \r\n везде
 
     process->write( "exit\n\r"  );
     //----------------------------------------------------------------------------------
@@ -778,11 +779,6 @@ void Chzn_Test_Dlg::on_ledt_gtin_returnPressed()
 }
 
 
-void Chzn_Test_Dlg::on_ledt_lk_api_key_returnPressed()
-{
-    sett.setValue( reestr_lk_api_key , ui->ledt_lk_api_key->text() );
-
-}
 
 void Chzn_Test_Dlg::on_cmb_konturType_activated( int index )
 {
@@ -1769,3 +1765,8 @@ void Chzn_Test_Dlg::on_btn_get_nk_feed_product_clicked()
 
 }
 
+
+void Chzn_Test_Dlg::on_ledt_lk_api_key_editingFinished()
+{
+    sett.setValue( reestr_lk_api_key , ui->ledt_lk_api_key->text() );
+}

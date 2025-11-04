@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'chzn_validate.h'
 **
-** Created: Mon 3. Nov 20:32:58 2025
+** Created: Tue 4. Nov 13:34:02 2025
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

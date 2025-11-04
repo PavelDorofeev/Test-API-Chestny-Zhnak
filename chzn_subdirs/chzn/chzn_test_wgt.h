@@ -28,7 +28,7 @@ public:
     explicit Chzn_Test_Dlg(QWidget *parent = 0);
     ~Chzn_Test_Dlg();
 
-    static const QString tempDir;
+    static QString tempDir;
     static const QString signed_file_name;
 
     QSettings sett;
@@ -91,8 +91,6 @@ private slots:
 
     void on_ledt_gtin_returnPressed();
 
-    void on_ledt_lk_api_key_returnPressed();
-
     void on_cmb_konturType_activated(int index);
 
     void on_gr_lk_api_key_clicked(bool checked);
@@ -143,6 +141,8 @@ private slots:
 
     void on_gr_lk_api_key_toggled(bool arg1);
 
+
+    void on_ledt_lk_api_key_editingFinished();
 
 private:
     Ui::Chzn_Test_Dlg *ui;

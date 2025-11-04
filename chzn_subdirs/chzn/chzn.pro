@@ -13,15 +13,18 @@ include($$PWD/../../qp/general/general.pri)
 include($$include2($$PWD/../../qp/config/lib_openssl.pri))
 
 include($$PWD/../../qp/config/lib_qp_core.pri)
-include($$PWD/../../qp/config/lib_qp_gui.pri)
-include($$PWD/../../qp/config/lib_qp_ntw.pri)
+#include( $$include2($$PWD/../../qp/core/qp_core.pri))
 
-#include($$PWD/../../../config/lib_my_lib.pri)
+include($$PWD/../../qp/config/lib_qp_gui.pri)
+#include( $$include2($$PWD/../../qp/gui/qp_gui.pri))
+
+include($$PWD/../../qp/config/lib_qp_ntw.pri)
+#include( $$include2($$PWD/../../qp/ntw/qp_ntw.pri))
 
 include($$include2($$PWD/../../qp/config/lib_axcontainer.pri))
 
 include($$include2($$PWD/../../kb_scanner/config/lib_scanner_kb.pri))
-#include($$include2($$PWD/../../../equipment/scanner/kb_wgt/kb_wgt.pri))
+#include($$include2($$PWD/../../kb_scanner/kb_wgt/kb_wgt.pri))
 
 
 

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'sizerememberdlg2.ui'
 **
-** Created: Mon 3. Nov 20:28:44 2025
+** Created: Tue 4. Nov 13:31:37 2025
 **      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!

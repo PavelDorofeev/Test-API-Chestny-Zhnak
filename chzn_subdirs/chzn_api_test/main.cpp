@@ -98,6 +98,7 @@ int main(int argc, char *argv[])
 
     a.setStyleSheet( add_QDialog_Styles() );
 
+    qDebug() << a.styleSheet();
 
     MainWindow wnd;
 
@@ -164,7 +165,15 @@ const QString add_QDialog_Styles()
             "   font-size: 16px;\n"\
             "}\n" \
 
-            "QGroupBox, QLabel{\n"\
+            "QGroupBox{\n"\
+            "   font-size: 16px;\n"\
+            "}\n" \
+
+            ".QFrame{\n"\
+            "   margin: 5px;\n"\
+            "}\n" \
+
+            "QLabel{\n"\
             "   font-size: 16px;\n"\
             "}\n" \
 

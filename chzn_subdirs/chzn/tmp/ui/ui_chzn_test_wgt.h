@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'chzn_test_wgt.ui'
 **
-** Created: Mon 3. Nov 20:32:57 2025
+** Created: Tue 4. Nov 13:34:00 2025
 **      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -38,6 +38,7 @@ public:
     QScrollArea *scrollArea;
     QWidget *scrollAreaWidgetContents;
     QVBoxLayout *verticalLayout_5;
+    QHBoxLayout *horizontalLayout_12;
     QFrame *frame_dark_1;
     QHBoxLayout *horizontalLayout_7;
     QGroupBox *verticalGroupBox_2;
@@ -54,6 +55,7 @@ public:
     QLineEdit *ledt_ki;
     QSpacerItem *horizontalSpacer_3;
     QSpacerItem *horizontalSpacer_7;
+    QHBoxLayout *horizontalLayout_13;
     QFrame *frame_dark_2;
     QHBoxLayout *horizontalLayout_9;
     QGroupBox *verticalGroupBox_21;
@@ -68,7 +70,8 @@ public:
     QLineEdit *ledt_thumbprint;
     QLabel *label_5;
     QComboBox *cmb_konturType;
-    QSpacerItem *horizontalSpacer_9;
+    QSpacerItem *horizontalSpacer_11;
+    QHBoxLayout *horizontalLayout_14;
     QFrame *frame_dark_5;
     QVBoxLayout *verticalLayout_4;
     QHBoxLayout *horizontalLayout_10;
@@ -91,7 +94,7 @@ public:
     QPushButton *btn_get_product_info;
     QPushButton *btn_get_nk_feed_product;
     QPushButton *btn_get_nk_product;
-    QSpacerItem *horizontalSpacer_10;
+    QSpacerItem *horizontalSpacer_9;
     QHBoxLayout *horizontalLayout_5;
     QFrame *frame_dark_3;
     QHBoxLayout *horizontalLayout_3;
@@ -107,26 +110,25 @@ public:
     QPushButton *btn_get_cises_check_history_create;
     QPushButton *btn_get_cises_check_history_receive;
     QSpacerItem *horizontalSpacer_4;
+    QHBoxLayout *horizontalLayout_15;
     QFrame *frame_dark_4;
     QHBoxLayout *horizontalLayout_11;
     QGroupBox *verticalGroupBox;
-    QVBoxLayout *verticalLayout_9;
     QHBoxLayout *horizontalLayout_8;
+    QGridLayout *gridLayout_6;
     QLabel *label_7;
     QLineEdit *ledt_lm_login;
     QLabel *label_8;
     QLineEdit *ledt_lm_pw;
-    QSpacerItem *horizontalSpacer_6;
-    QGridLayout *gridLayout_5;
     QLabel *label_6;
-    QPushButton *btn_lm_init;
     QLineEdit *ledt_fn_num;
-    QPushButton *btn_lm_status;
+    QGridLayout *gridLayout_5;
+    QPushButton *btn_lm_init;
     QPushButton *btn_lm_cis_check;
+    QPushButton *btn_lm_cis_outCheck_post;
+    QPushButton *btn_lm_status;
     QPushButton *btn_lm_cis_check_old;
     QPushButton *btn_lm_cis_outCheck;
-    QPushButton *btn_lm_cis_outCheck_post;
-    QSpacerItem *horizontalSpacer_5;
     QSpacerItem *horizontalSpacer_8;
     QGridLayout *gridLayout_4;
     QPushButton *btn_log;
@@ -151,12 +153,15 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, -212, 995, 942));
+        scrollAreaWidgetContents->setGeometry(QRect(-362, -193, 1405, 964));
         scrollAreaWidgetContents->setAutoFillBackground(true);
         verticalLayout_5 = new QVBoxLayout(scrollAreaWidgetContents);
         verticalLayout_5->setSpacing(6);
         verticalLayout_5->setContentsMargins(11, 11, 11, 11);
         verticalLayout_5->setObjectName(QString::fromUtf8("verticalLayout_5"));
+        horizontalLayout_12 = new QHBoxLayout();
+        horizontalLayout_12->setSpacing(6);
+        horizontalLayout_12->setObjectName(QString::fromUtf8("horizontalLayout_12"));
         frame_dark_1 = new QFrame(scrollAreaWidgetContents);
         frame_dark_1->setObjectName(QString::fromUtf8("frame_dark_1"));
         horizontalLayout_7 = new QHBoxLayout(frame_dark_1);
@@ -247,13 +252,19 @@ public:
 
         horizontalLayout_7->addWidget(verticalGroupBox_2);
 
+
+        horizontalLayout_12->addWidget(frame_dark_1);
+
         horizontalSpacer_7 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
-        horizontalLayout_7->addItem(horizontalSpacer_7);
+        horizontalLayout_12->addItem(horizontalSpacer_7);
 
 
-        verticalLayout_5->addWidget(frame_dark_1);
+        verticalLayout_5->addLayout(horizontalLayout_12);
 
+        horizontalLayout_13 = new QHBoxLayout();
+        horizontalLayout_13->setSpacing(6);
+        horizontalLayout_13->setObjectName(QString::fromUtf8("horizontalLayout_13"));
         frame_dark_2 = new QFrame(scrollAreaWidgetContents);
         frame_dark_2->setObjectName(QString::fromUtf8("frame_dark_2"));
         frame_dark_2->setFrameShape(QFrame::NoFrame);
@@ -341,13 +352,19 @@ public:
 
         horizontalLayout_9->addWidget(verticalGroupBox_21);
 
-        horizontalSpacer_9 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
-        horizontalLayout_9->addItem(horizontalSpacer_9);
+        horizontalLayout_13->addWidget(frame_dark_2);
+
+        horizontalSpacer_11 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_13->addItem(horizontalSpacer_11);
 
 
-        verticalLayout_5->addWidget(frame_dark_2);
+        verticalLayout_5->addLayout(horizontalLayout_13);
 
+        horizontalLayout_14 = new QHBoxLayout();
+        horizontalLayout_14->setSpacing(6);
+        horizontalLayout_14->setObjectName(QString::fromUtf8("horizontalLayout_14"));
         frame_dark_5 = new QFrame(scrollAreaWidgetContents);
         frame_dark_5->setObjectName(QString::fromUtf8("frame_dark_5"));
         frame_dark_5->setFrameShape(QFrame::NoFrame);
@@ -365,7 +382,7 @@ public:
 #ifndef QT_NO_TOOLTIP
         gr->setToolTip(QString::fromUtf8(""));
 #endif // QT_NO_TOOLTIP
-        gr->setAutoFillBackground(true);
+        gr->setAutoFillBackground(false);
         gr->setTitle(QString::fromUtf8("\320\247\320\265\321\201\321\202\320\275\321\213\320\271 \320\267\320\275\320\260\320\272:"));
         gr->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
         gr->setFlat(false);
@@ -387,7 +404,7 @@ public:
 
         ledt_api_key = new QLineEdit(gr);
         ledt_api_key->setObjectName(QString::fromUtf8("ledt_api_key"));
-        ledt_api_key->setMinimumSize(QSize(200, 0));
+        ledt_api_key->setMinimumSize(QSize(780, 0));
         ledt_api_key->setInputMask(QString::fromUtf8(""));
         ledt_api_key->setText(QString::fromUtf8(""));
         ledt_api_key->setReadOnly(true);
@@ -420,6 +437,7 @@ public:
 
         ledt_auth_permissive_access = new QLineEdit(gr);
         ledt_auth_permissive_access->setObjectName(QString::fromUtf8("ledt_auth_permissive_access"));
+        ledt_auth_permissive_access->setMinimumSize(QSize(500, 0));
         ledt_auth_permissive_access->setMaximumSize(QSize(300, 16777215));
 
         formLayout_2->setWidget(6, QFormLayout::FieldRole, ledt_auth_permissive_access);
@@ -506,22 +524,22 @@ public:
 
         horizontalLayout_10->addWidget(groupBox);
 
-        horizontalSpacer_10 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        horizontalLayout_10->addItem(horizontalSpacer_10);
-
 
         verticalLayout_4->addLayout(horizontalLayout_10);
 
 
-        verticalLayout_5->addWidget(frame_dark_5);
+        horizontalLayout_14->addWidget(frame_dark_5);
+
+        horizontalSpacer_9 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_14->addItem(horizontalSpacer_9);
+
+
+        verticalLayout_5->addLayout(horizontalLayout_14);
 
         horizontalLayout_5 = new QHBoxLayout();
         horizontalLayout_5->setSpacing(6);
         horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
-
-        verticalLayout_5->addLayout(horizontalLayout_5);
-
         frame_dark_3 = new QFrame(scrollAreaWidgetContents);
         frame_dark_3->setObjectName(QString::fromUtf8("frame_dark_3"));
         frame_dark_3->setStyleSheet(QString::fromUtf8(""));
@@ -611,13 +629,20 @@ public:
 
         horizontalLayout_3->addWidget(groupBox1);
 
+
+        horizontalLayout_5->addWidget(frame_dark_3);
+
         horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
-        horizontalLayout_3->addItem(horizontalSpacer_4);
+        horizontalLayout_5->addItem(horizontalSpacer_4);
 
 
-        verticalLayout_5->addWidget(frame_dark_3);
+        verticalLayout_5->addLayout(horizontalLayout_5);
 
+        horizontalLayout_15 = new QHBoxLayout();
+        horizontalLayout_15->setSpacing(6);
+        horizontalLayout_15->setObjectName(QString::fromUtf8("horizontalLayout_15"));
+        horizontalLayout_15->setContentsMargins(-1, 11, 11, -1);
         frame_dark_4 = new QFrame(scrollAreaWidgetContents);
         frame_dark_4->setObjectName(QString::fromUtf8("frame_dark_4"));
         frame_dark_4->setFrameShape(QFrame::NoFrame);
@@ -631,27 +656,28 @@ public:
         verticalGroupBox->setObjectName(QString::fromUtf8("verticalGroupBox"));
         verticalGroupBox->setTitle(QString::fromUtf8("\320\273\320\276\320\272\320\260\320\273\321\214\320\275\321\213\320\271 \320\274\320\276\320\264\321\203\320\273\321\214"));
         verticalGroupBox->setCheckable(true);
-        verticalLayout_9 = new QVBoxLayout(verticalGroupBox);
-        verticalLayout_9->setSpacing(6);
-        verticalLayout_9->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_9->setObjectName(QString::fromUtf8("verticalLayout_9"));
-        horizontalLayout_8 = new QHBoxLayout();
+        horizontalLayout_8 = new QHBoxLayout(verticalGroupBox);
         horizontalLayout_8->setSpacing(6);
+        horizontalLayout_8->setContentsMargins(11, 11, 11, 11);
         horizontalLayout_8->setObjectName(QString::fromUtf8("horizontalLayout_8"));
+        gridLayout_6 = new QGridLayout();
+        gridLayout_6->setSpacing(6);
+        gridLayout_6->setObjectName(QString::fromUtf8("gridLayout_6"));
         label_7 = new QLabel(verticalGroupBox);
         label_7->setObjectName(QString::fromUtf8("label_7"));
 
-        horizontalLayout_8->addWidget(label_7);
+        gridLayout_6->addWidget(label_7, 0, 0, 1, 1);
 
         ledt_lm_login = new QLineEdit(verticalGroupBox);
         ledt_lm_login->setObjectName(QString::fromUtf8("ledt_lm_login"));
+        ledt_lm_login->setMinimumSize(QSize(150, 0));
 
-        horizontalLayout_8->addWidget(ledt_lm_login);
+        gridLayout_6->addWidget(ledt_lm_login, 0, 1, 1, 1);
 
         label_8 = new QLabel(verticalGroupBox);
         label_8->setObjectName(QString::fromUtf8("label_8"));
 
-        horizontalLayout_8->addWidget(label_8);
+        gridLayout_6->addWidget(label_8, 1, 0, 1, 1);
 
         ledt_lm_pw = new QLineEdit(verticalGroupBox);
         ledt_lm_pw->setObjectName(QString::fromUtf8("ledt_lm_pw"));
@@ -660,75 +686,71 @@ public:
         ledt_lm_pw->setText(QString::fromUtf8(""));
         ledt_lm_pw->setEchoMode(QLineEdit::Password);
 
-        horizontalLayout_8->addWidget(ledt_lm_pw);
+        gridLayout_6->addWidget(ledt_lm_pw, 1, 1, 1, 1);
 
-        horizontalSpacer_6 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+        label_6 = new QLabel(verticalGroupBox);
+        label_6->setObjectName(QString::fromUtf8("label_6"));
 
-        horizontalLayout_8->addItem(horizontalSpacer_6);
+        gridLayout_6->addWidget(label_6, 2, 0, 1, 1);
+
+        ledt_fn_num = new QLineEdit(verticalGroupBox);
+        ledt_fn_num->setObjectName(QString::fromUtf8("ledt_fn_num"));
+        ledt_fn_num->setMinimumSize(QSize(250, 0));
+
+        gridLayout_6->addWidget(ledt_fn_num, 2, 1, 1, 1);
 
 
-        verticalLayout_9->addLayout(horizontalLayout_8);
+        horizontalLayout_8->addLayout(gridLayout_6);
 
         gridLayout_5 = new QGridLayout();
         gridLayout_5->setSpacing(6);
         gridLayout_5->setObjectName(QString::fromUtf8("gridLayout_5"));
         gridLayout_5->setContentsMargins(11, 11, -1, -1);
-        label_6 = new QLabel(verticalGroupBox);
-        label_6->setObjectName(QString::fromUtf8("label_6"));
-
-        gridLayout_5->addWidget(label_6, 0, 0, 1, 1);
-
         btn_lm_init = new QPushButton(verticalGroupBox);
         btn_lm_init->setObjectName(QString::fromUtf8("btn_lm_init"));
 
         gridLayout_5->addWidget(btn_lm_init, 0, 2, 1, 1);
-
-        ledt_fn_num = new QLineEdit(verticalGroupBox);
-        ledt_fn_num->setObjectName(QString::fromUtf8("ledt_fn_num"));
-
-        gridLayout_5->addWidget(ledt_fn_num, 0, 1, 1, 1);
-
-        btn_lm_status = new QPushButton(verticalGroupBox);
-        btn_lm_status->setObjectName(QString::fromUtf8("btn_lm_status"));
-
-        gridLayout_5->addWidget(btn_lm_status, 0, 3, 1, 1);
 
         btn_lm_cis_check = new QPushButton(verticalGroupBox);
         btn_lm_cis_check->setObjectName(QString::fromUtf8("btn_lm_cis_check"));
 
         gridLayout_5->addWidget(btn_lm_cis_check, 0, 4, 1, 1);
 
-        btn_lm_cis_check_old = new QPushButton(verticalGroupBox);
-        btn_lm_cis_check_old->setObjectName(QString::fromUtf8("btn_lm_cis_check_old"));
-
-        gridLayout_5->addWidget(btn_lm_cis_check_old, 0, 5, 1, 1);
-
-        btn_lm_cis_outCheck = new QPushButton(verticalGroupBox);
-        btn_lm_cis_outCheck->setObjectName(QString::fromUtf8("btn_lm_cis_outCheck"));
-
-        gridLayout_5->addWidget(btn_lm_cis_outCheck, 0, 6, 1, 1);
-
         btn_lm_cis_outCheck_post = new QPushButton(verticalGroupBox);
         btn_lm_cis_outCheck_post->setObjectName(QString::fromUtf8("btn_lm_cis_outCheck_post"));
 
         gridLayout_5->addWidget(btn_lm_cis_outCheck_post, 0, 7, 1, 1);
 
-        horizontalSpacer_5 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+        btn_lm_status = new QPushButton(verticalGroupBox);
+        btn_lm_status->setObjectName(QString::fromUtf8("btn_lm_status"));
 
-        gridLayout_5->addItem(horizontalSpacer_5, 0, 8, 1, 1);
+        gridLayout_5->addWidget(btn_lm_status, 2, 2, 1, 1);
+
+        btn_lm_cis_check_old = new QPushButton(verticalGroupBox);
+        btn_lm_cis_check_old->setObjectName(QString::fromUtf8("btn_lm_cis_check_old"));
+
+        gridLayout_5->addWidget(btn_lm_cis_check_old, 2, 4, 1, 1);
+
+        btn_lm_cis_outCheck = new QPushButton(verticalGroupBox);
+        btn_lm_cis_outCheck->setObjectName(QString::fromUtf8("btn_lm_cis_outCheck"));
+
+        gridLayout_5->addWidget(btn_lm_cis_outCheck, 2, 7, 1, 1);
 
 
-        verticalLayout_9->addLayout(gridLayout_5);
+        horizontalLayout_8->addLayout(gridLayout_5);
 
 
         horizontalLayout_11->addWidget(verticalGroupBox);
 
+
+        horizontalLayout_15->addWidget(frame_dark_4);
+
         horizontalSpacer_8 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
-        horizontalLayout_11->addItem(horizontalSpacer_8);
+        horizontalLayout_15->addItem(horizontalSpacer_8);
 
 
-        verticalLayout_5->addWidget(frame_dark_4);
+        verticalLayout_5->addLayout(horizontalLayout_15);
 
         gridLayout_4 = new QGridLayout();
         gridLayout_4->setSpacing(6);
@@ -890,11 +912,11 @@ public:
         ledt_lm_pw->setPlaceholderText(QApplication::translate("Chzn_Test_Dlg", "\320\277\320\260\321\200\320\276\320\273\321\214 \320\277\321\200\320\270 \321\203\321\201\321\202\320\260\320\275\320\276\320\262\320\272\320\265 \320\273\320\276\320\272\320\260\320\273\321\214\320\275\320\276\320\263\320\276 \320\274\320\276\320\264\321\203\320\273\321\217 ", 0, QApplication::UnicodeUTF8));
         label_6->setText(QApplication::translate("Chzn_Test_Dlg", "\320\244\320\235 \342\204\226:", 0, QApplication::UnicodeUTF8));
         btn_lm_init->setText(QApplication::translate("Chzn_Test_Dlg", "/init", 0, QApplication::UnicodeUTF8));
-        btn_lm_status->setText(QApplication::translate("Chzn_Test_Dlg", "/status", 0, QApplication::UnicodeUTF8));
         btn_lm_cis_check->setText(QApplication::translate("Chzn_Test_Dlg", "/cis/check", 0, QApplication::UnicodeUTF8));
+        btn_lm_cis_outCheck_post->setText(QApplication::translate("Chzn_Test_Dlg", "/cis/out\320\241heck (post)", 0, QApplication::UnicodeUTF8));
+        btn_lm_status->setText(QApplication::translate("Chzn_Test_Dlg", "/status", 0, QApplication::UnicodeUTF8));
         btn_lm_cis_check_old->setText(QApplication::translate("Chzn_Test_Dlg", "/cis/check (post)", 0, QApplication::UnicodeUTF8));
         btn_lm_cis_outCheck->setText(QApplication::translate("Chzn_Test_Dlg", "/cis/out\320\241heck", 0, QApplication::UnicodeUTF8));
-        btn_lm_cis_outCheck_post->setText(QApplication::translate("Chzn_Test_Dlg", "/cis/out\320\241heck (post)", 0, QApplication::UnicodeUTF8));
 #ifndef QT_NO_TOOLTIP
         btn_log->setToolTip(QString());
 #endif // QT_NO_TOOLTIP

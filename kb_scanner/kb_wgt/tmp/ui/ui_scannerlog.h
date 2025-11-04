@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'scannerlog.ui'
 **
-** Created: Mon 3. Nov 20:30:17 2025
+** Created: Tue 4. Nov 13:33:53 2025
 **      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!

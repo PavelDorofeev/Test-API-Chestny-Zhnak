@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'chzn_test_wgt.h'
 **
-** Created: Mon 3. Nov 20:32:59 2025
+** Created: Tue 4. Nov 13:34:02 2025
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -47,32 +47,32 @@ static const uint qt_meta_data_Chzn_Test_Dlg[] = {
      513,   14,   14,   14, 0x08,
      548,   14,   14,   14, 0x08,
      580,   14,   14,   14, 0x08,
-     609,   14,   14,   14, 0x08,
-     650,  644,   14,   14, 0x08,
-     691,  683,   14,   14, 0x08,
-     722,  644,   14,   14, 0x08,
-     756,   14,   14,   14, 0x08,
-     788,   14,   14,   14, 0x08,
-     821,   14,   14,   14, 0x08,
+     615,  609,   14,   14, 0x08,
+     656,  648,   14,   14, 0x08,
+     687,  609,   14,   14, 0x08,
+     721,   14,   14,   14, 0x08,
+     753,   14,   14,   14, 0x08,
+     786,   14,   14,   14, 0x08,
+     818,   14,   14,   14, 0x08,
      853,   14,   14,   14, 0x08,
-     888,   14,   14,   14, 0x08,
-     925,   14,   14,   14, 0x08,
-     958,   14,   14,   14, 0x08,
-     995,   14,   14,   14, 0x08,
-    1043,   14,   14,   14, 0x08,
-    1092,   14,   14,   14, 0x08,
-    1113,   14,   14,   14, 0x08,
-    1138,   14,   14,   14, 0x08,
-    1169,   14,   14,   14, 0x08,
-    1196,   14,   14,   14, 0x08,
-    1226,   14,   14,   14, 0x08,
-    1260,   14,   14,   14, 0x08,
-    1293,   14,   14,   14, 0x08,
-    1331,   14,   14,   14, 0x08,
-    1364,   14,   14,   14, 0x08,
-    1394,   14,   14,   14, 0x08,
-    1432,   14,   14,   14, 0x08,
-    1474, 1469,   14,   14, 0x08,
+     890,   14,   14,   14, 0x08,
+     923,   14,   14,   14, 0x08,
+     960,   14,   14,   14, 0x08,
+    1008,   14,   14,   14, 0x08,
+    1057,   14,   14,   14, 0x08,
+    1078,   14,   14,   14, 0x08,
+    1103,   14,   14,   14, 0x08,
+    1134,   14,   14,   14, 0x08,
+    1161,   14,   14,   14, 0x08,
+    1191,   14,   14,   14, 0x08,
+    1225,   14,   14,   14, 0x08,
+    1258,   14,   14,   14, 0x08,
+    1296,   14,   14,   14, 0x08,
+    1329,   14,   14,   14, 0x08,
+    1359,   14,   14,   14, 0x08,
+    1397,   14,   14,   14, 0x08,
+    1439, 1434,   14,   14, 0x08,
+    1470,   14,   14,   14, 0x08,
 
        0        // eod
 };
@@ -94,9 +94,8 @@ static const char qt_meta_stringdata_Chzn_Test_Dlg[] = {
     "slot_readyReadStandardError()\0"
     "on_btn_startProcess_sign_clicked()\0"
     "on_btn_get_nk_product_clicked()\0"
-    "on_ledt_gtin_returnPressed()\0"
-    "on_ledt_lk_api_key_returnPressed()\0"
-    "index\0on_cmb_konturType_activated(int)\0"
+    "on_ledt_gtin_returnPressed()\0index\0"
+    "on_cmb_konturType_activated(int)\0"
     "checked\0on_gr_lk_api_key_clicked(bool)\0"
     "on_cmb_api_version_activated(int)\0"
     "on_btn_get_cises_info_clicked()\0"
@@ -120,6 +119,7 @@ static const char qt_meta_stringdata_Chzn_Test_Dlg[] = {
     "on_btn_get_nk_short_product_clicked()\0"
     "on_btn_get_nk_feed_product_clicked()\0"
     "arg1\0on_gr_lk_api_key_toggled(bool)\0"
+    "on_ledt_lk_api_key_editingFinished()\0"
 };
 
 void Chzn_Test_Dlg::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -145,32 +145,32 @@ void Chzn_Test_Dlg::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 13: _t->on_btn_startProcess_sign_clicked(); break;
         case 14: _t->on_btn_get_nk_product_clicked(); break;
         case 15: _t->on_ledt_gtin_returnPressed(); break;
-        case 16: _t->on_ledt_lk_api_key_returnPressed(); break;
-        case 17: _t->on_cmb_konturType_activated((*reinterpret_cast< int(*)>(_a[1]))); break;
-        case 18: _t->on_gr_lk_api_key_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 19: _t->on_cmb_api_version_activated((*reinterpret_cast< int(*)>(_a[1]))); break;
-        case 20: _t->on_btn_get_cises_info_clicked(); break;
-        case 21: _t->on_btn_get_codes_check_clicked(); break;
-        case 22: _t->on_ledt_inn_uot_returnPressed(); break;
-        case 23: _t->on_ledt_thumbprint_returnPressed(); break;
-        case 24: _t->on_btn_get_cises_ease_info_clicked(); break;
-        case 25: _t->on_btn_get_cises_check_clicked(); break;
-        case 26: _t->on_ledt_lk_kkt_token_returnPressed(); break;
-        case 27: _t->on_btn_get_cises_check_history_create_clicked(); break;
-        case 28: _t->on_btn_get_cises_check_history_receive_clicked(); break;
-        case 29: _t->on_btn_log_clicked(); break;
-        case 30: _t->on_btn_lm_init_clicked(); break;
-        case 31: _t->on_ledt_fn_num_returnPressed(); break;
-        case 32: _t->on_btn_lm_status_clicked(); break;
-        case 33: _t->on_btn_lm_cis_check_clicked(); break;
-        case 34: _t->on_btn_lm_cis_check_old_clicked(); break;
-        case 35: _t->on_btn_lm_cis_outCheck_clicked(); break;
-        case 36: _t->on_btn_lm_cis_outCheck_post_clicked(); break;
-        case 37: _t->on_ledt_lm_login_returnPressed(); break;
-        case 38: _t->on_ledt_lm_pw_returnPressed(); break;
-        case 39: _t->on_btn_get_nk_short_product_clicked(); break;
-        case 40: _t->on_btn_get_nk_feed_product_clicked(); break;
-        case 41: _t->on_gr_lk_api_key_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 16: _t->on_cmb_konturType_activated((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 17: _t->on_gr_lk_api_key_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 18: _t->on_cmb_api_version_activated((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 19: _t->on_btn_get_cises_info_clicked(); break;
+        case 20: _t->on_btn_get_codes_check_clicked(); break;
+        case 21: _t->on_ledt_inn_uot_returnPressed(); break;
+        case 22: _t->on_ledt_thumbprint_returnPressed(); break;
+        case 23: _t->on_btn_get_cises_ease_info_clicked(); break;
+        case 24: _t->on_btn_get_cises_check_clicked(); break;
+        case 25: _t->on_ledt_lk_kkt_token_returnPressed(); break;
+        case 26: _t->on_btn_get_cises_check_history_create_clicked(); break;
+        case 27: _t->on_btn_get_cises_check_history_receive_clicked(); break;
+        case 28: _t->on_btn_log_clicked(); break;
+        case 29: _t->on_btn_lm_init_clicked(); break;
+        case 30: _t->on_ledt_fn_num_returnPressed(); break;
+        case 31: _t->on_btn_lm_status_clicked(); break;
+        case 32: _t->on_btn_lm_cis_check_clicked(); break;
+        case 33: _t->on_btn_lm_cis_check_old_clicked(); break;
+        case 34: _t->on_btn_lm_cis_outCheck_clicked(); break;
+        case 35: _t->on_btn_lm_cis_outCheck_post_clicked(); break;
+        case 36: _t->on_ledt_lm_login_returnPressed(); break;
+        case 37: _t->on_ledt_lm_pw_returnPressed(); break;
+        case 38: _t->on_btn_get_nk_short_product_clicked(); break;
+        case 39: _t->on_btn_get_nk_feed_product_clicked(); break;
+        case 40: _t->on_gr_lk_api_key_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 41: _t->on_ledt_lk_api_key_editingFinished(); break;
         default: ;
         }
     }

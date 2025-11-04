@@ -27,35 +27,23 @@ win32:MY_OS_TYPE=2
 
 include($$include2($$PWD/../../qp/config/lib_openssl.pri))
 
-#include( $$include2( $$PWD/../../../equipment/qextserialport/qextserialport.pri) )
-#include( $$include2( $$PWD/../../../equipment/config_eqpt/lib_qextserialport.pri) )
+include( $$include2($$PWD/../../qp/config/lib_qp_core.pri))
+#include( $$include2($$PWD/../../qp/core/qp_core.pri))
 
-#include( $$include2($$PWD/../../../qp/config/lib_qp_core.pri))
-include( $$include2($$PWD/../../qp/core/qp_core.pri))
+include( $$include2($$PWD/../../qp/config/lib_qp_gui.pri))
+#include( $$include2($$PWD/../../qp/gui/qp_gui.pri))
 
-#include( $$include2($$PWD/../../../qp/config/lib_qp_gui.pri))
-include( $$include2($$PWD/../../qp/gui/qp_gui.pri))
-
-#include( $$include2($$PWD/../../../qp/config/lib_qp_ntw.pri))
-include( $$include2($$PWD/../../qp/ntw/qp_ntw.pri))
-
-#include( $$include2($$PWD/../../../config/lib_my_lib.pri))
-#include( $$include2($$PWD/../../../my_lib/my_lib.pri))
+include( $$include2($$PWD/../../qp/config/lib_qp_ntw.pri))
+#include( $$include2($$PWD/../../qp/ntw/qp_ntw.pri))
 
 include($$include2($$PWD/../../qp/config/lib_axcontainer.pri))
 
-#include($$include2($$PWD/../../../kb_scanner/config/lib_scanner_kb.pri))
-include($$include2($$PWD/../../kb_scanner/kb_wgt/kb_wgt.pri))
-
-#include($$include2($$PWD/../../../marking/marking.pri))
-#include($$include2($$PWD/../../../equipment/config_eqpt/lib_marking.pri))
-
-#include($$include2($$PWD/../../../equipment/a_subdirs/abstract/abstract.pri))
-#include($$include2($$PWD/../../../equipment/config_eqpt/lib_aeqpt.pri))
+include($$include2($$PWD/../../kb_scanner/config/lib_scanner_kb.pri))
+#include($$include2($$PWD/../../kb_scanner/kb_wgt/kb_wgt.pri))
 
 
-#include($$include2($$PWD/../../../config/lib_chzn.pri))  Ттак почему-то падает
-include($$include2($$PWD/../chzn/chzn.pri))
+include($$include2($$PWD/../config/lib_chzn.pri))
+#include($$include2($$PWD/../chzn/chzn.pri))
 
 
 

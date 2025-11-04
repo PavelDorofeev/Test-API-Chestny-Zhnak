@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'smart_process_dlg.ui'
 **
-** Created: Mon 3. Nov 20:40:28 2025
+** Created: Tue 4. Nov 13:01:46 2025
 **      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -38,7 +38,6 @@ public:
     QVBoxLayout *verticalLayout_6;
     QVBoxLayout *verticalLayout_2;
     QLabel *lbl_header;
-    QVBoxLayout *verticalLayout_4;
     QVBoxLayout *contentLayout;
     QLabel *lbl_text1;
     QScrollArea *scrollArea;
@@ -57,7 +56,7 @@ public:
     {
         if (Smart_Process_Dlg->objectName().isEmpty())
             Smart_Process_Dlg->setObjectName(QString::fromUtf8("Smart_Process_Dlg"));
-        Smart_Process_Dlg->resize(606, 546);
+        Smart_Process_Dlg->resize(606, 542);
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(1);
         sizePolicy.setVerticalStretch(1);
@@ -90,7 +89,6 @@ public:
         verticalLayout_2 = new QVBoxLayout();
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setSizeConstraint(QLayout::SetDefaultConstraint);
-        verticalLayout_2->setContentsMargins(11, 11, -1, -1);
         lbl_header = new QLabel(frame_dark_2);
         lbl_header->setObjectName(QString::fromUtf8("lbl_header"));
         QSizePolicy sizePolicy1(QSizePolicy::Preferred, QSizePolicy::Preferred);
@@ -114,15 +112,8 @@ public:
 
         verticalLayout_6->addLayout(verticalLayout_2);
 
-        verticalLayout_4 = new QVBoxLayout();
-        verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
-        verticalLayout_4->setContentsMargins(11, 11, -1, -1);
-
-        verticalLayout_6->addLayout(verticalLayout_4);
-
         contentLayout = new QVBoxLayout();
         contentLayout->setObjectName(QString::fromUtf8("contentLayout"));
-        contentLayout->setContentsMargins(11, 11, -1, -1);
         lbl_text1 = new QLabel(frame_dark_2);
         lbl_text1->setObjectName(QString::fromUtf8("lbl_text1"));
         sizePolicy1.setHeightForWidth(lbl_text1->sizePolicy().hasHeightForWidth());
@@ -142,7 +133,7 @@ public:
         scrollArea->setAlignment(Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 472, 279));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 472, 314));
         verticalLayout_5 = new QVBoxLayout(scrollAreaWidgetContents);
         verticalLayout_5->setObjectName(QString::fromUtf8("verticalLayout_5"));
         verticalLayout_3 = new QVBoxLayout();

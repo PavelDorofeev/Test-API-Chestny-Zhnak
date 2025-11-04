@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'scannerlog.h'
 **
-** Created: Mon 3. Nov 20:30:19 2025
+** Created: Tue 4. Nov 13:33:54 2025
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

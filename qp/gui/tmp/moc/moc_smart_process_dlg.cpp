@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'smart_process_dlg.h'
 **
-** Created: Mon 3. Nov 20:28:51 2025
+** Created: Tue 4. Nov 13:31:44 2025
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

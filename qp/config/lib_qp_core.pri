@@ -1,4 +1,5 @@
 INCLUDEPATH += $$includePath($$PWD/../)
+INCLUDEPATH += $$includePath($$PWD/../../)
 
 CONFIG(release,release|debug){
 

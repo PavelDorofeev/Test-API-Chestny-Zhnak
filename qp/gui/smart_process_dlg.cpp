@@ -194,6 +194,7 @@ Smart_Process_Dlg::Smart_Process_Dlg( QWidget *parent,
     //font.setFamily("Monospace");  выставляется стилями в <p>
     //font.setStyleHint(QFont::TypeWriter);
 
+    adjustSize();
 }
 
 void Smart_Process_Dlg::slot_rangeChanged(int min ,int max)
@@ -477,5 +478,11 @@ err:
 
 void Smart_Process_Dlg::on_btn_maximizedShow_clicked()
 {
-    showMaximized();
+    int margin = 50;
+    QSize newSize = qp::gui::screen_size() - QSize( margin , margin );
+    setGeometry( margin/2 , margin/2 , newSize.width() , newSize.height() );
+    //showMaximized(); // почему-то не на всеь экран
+    setMinimumSize( newSize );
+    updateGeometry();
+
 }
